@@ -16,9 +16,9 @@ Variables being tested — keep them balanced so the month-end review can compar
 
 | Week | Tue | Thu | Sat |
 |---|---|---|---|
-| 1 (3–7 Nov) ✅ done | Reel: Emerald Earring, 210 frames — 18:30 | Carousel: Custom ERP build vs buy, 5 questions — 21:30 | Carousel: What is scrollytelling? — 18:30 |
+| 1 (3–7 Nov) ✅ done | Reel: Emerald Earring, "Smooth. Scroll-driven." — 18:30 | Carousel: Custom ERP build vs buy, 5 questions — 21:30 | Carousel: What is scrollytelling? — 18:30 |
 | 2 (10–14 Nov) | Carousel: Flutter vs React Native — 21:30 | Reel (text): Core Web Vitals, "your site has 2.5 seconds" — 18:30 | Carousel: How to write a software brief — 21:30 |
-| 3 (17–21 Nov) | Carousel: Headless CMS vs WordPress — 18:30 | Carousel: WhatsApp Business API inside your CRM — 21:30 | Reel: Emerald Earring "how a frame sequence works" (frames + text scenes) — 18:30 |
+| 3 (17–21 Nov) | Carousel: Headless CMS vs WordPress — 18:30 | Carousel: WhatsApp Business API inside your CRM — 21:30 | Reel: Emerald Earring "how a scroll-driven page works" (demo footage + text scenes) — 18:30 |
 | 4 (24–28 Nov) | Reel (text): 5 signs your website is losing buyers — 21:30 | Carousel: App maintenance after launch — 18:30 | Carousel: Zero vendor lock-in, what you should own — 21:30 |
 
 Source material: the Insights articles at https://anekant.tech/insights (also in the private repo
