@@ -50,3 +50,4 @@ headlines). Neo-brutalist: 3px rules, hard offset shadows, big orange numbers, d
 "link in bio" instead of links, a DM keyword CTA, "Save this" where useful, 8–10 hashtags at the end
 (mix of broad and niche, always #anekanttech). Plain, specific, honest. Never invent client names,
 numbers, results or anecdotes.
+Don't talk about "frames" or frame counts when describing the scroll pages; describe them as smooth and scroll-driven (Yash's preference).
