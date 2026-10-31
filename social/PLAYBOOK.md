@@ -7,19 +7,22 @@ custom ERP, custom CRM, headless CMS and UI/UX design systems, with zero vendor 
 **Goal:** inbound leads from the **US and Europe** (founders, ops leads, marketing heads at brands and
 mid-size businesses). Every post ends with a soft DM call to action ("DM us “ERP”", "DM us “SCROLL”"…).
 
-## Test month: 2 Nov – 29 Nov 2026
-3 posts a week (Tue / Thu / Sat), all created in Metricool as **drafts** (`"draft": true`) for Yash to approve.
+## Test month: 31 Oct – 29 Nov 2026
+3 posts a week on **Saturday, Tuesday and Thursday** (each "week" below runs Sat → Thu). All posts are
+created in Metricool as **drafts** (`"draft": true`) for Yash to approve. (Exception: Yash approved the
+first Reel in chat, so it was scheduled to publish directly on Sat 31 Oct.)
 Variables being tested — keep them balanced so the month-end review can compare:
 - **Format:** Reels vs carousels (aim ~1 Reel + 2 carousels a week).
 - **Time (IST):** 18:30 (UK/EU afternoon, US East morning) vs 21:30 (UK/EU evening, US East lunchtime).
 - **Topic cluster:** showcase/craft · decision guides (ERP, CRM, CMS, apps) · web performance & SEO.
 
-| Week | Tue | Thu | Sat |
+| Week | Sat | Tue | Thu |
 |---|---|---|---|
-| 1 (3–7 Nov) ✅ done | Reel: Emerald Earring, "Smooth. Scroll-driven." — 18:30 | Carousel: Custom ERP build vs buy, 5 questions — 21:30 | Carousel: What is scrollytelling? — 18:30 |
-| 2 (10–14 Nov) | Carousel: Flutter vs React Native — 21:30 | Reel (text): Core Web Vitals, "your site has 2.5 seconds" — 18:30 | Carousel: How to write a software brief — 21:30 |
-| 3 (17–21 Nov) | Carousel: Headless CMS vs WordPress — 18:30 | Carousel: WhatsApp Business API inside your CRM — 21:30 | Reel: Emerald Earring "how a scroll-driven page works" (demo footage + text scenes) — 18:30 |
-| 4 (24–28 Nov) | Reel (text): 5 signs your website is losing buyers — 21:30 | Carousel: App maintenance after launch — 18:30 | Carousel: Zero vendor lock-in, what you should own — 21:30 |
+| 1 (31 Oct, 3 & 5 Nov) ✅ done | Reel: Emerald Earring, "Smooth. Scroll-driven." — 18:30 | Carousel: Custom ERP build vs buy, 5 questions — 21:30 | Carousel: What is scrollytelling? — 18:30 |
+| 2 (7, 10 & 12 Nov) | Carousel: How to write a software brief — 21:30 | Carousel: Flutter vs React Native — 18:30 | Reel (text): Core Web Vitals, "your site has 2.5 seconds" — 21:30 |
+| 3 (14, 17 & 19 Nov) | Reel: Emerald Earring "how a scroll-driven page works" (demo footage + text scenes) — 18:30 | Carousel: Headless CMS vs WordPress — 21:30 | Carousel: WhatsApp Business API inside your CRM — 18:30 |
+| 4 (21, 24 & 26 Nov) | Carousel: Zero vendor lock-in, what you should own — 21:30 | Reel (text): 5 signs your website is losing buyers — 18:30 | Carousel: App maintenance after launch — 21:30 |
+| 5 (28 Nov, 1 & 3 Dec) | Fresh topic (see below) | Fresh topic | Fresh topic |
 
 Source material: the Insights articles at https://anekant.tech/insights (also in the private repo
 YashmDhoka/anekant_website under web/insights/<slug>/index.html). Showcase: only the **Emerald Earring**
