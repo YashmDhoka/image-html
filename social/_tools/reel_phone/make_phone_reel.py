@@ -1,4 +1,5 @@
 """Reel v3: hook on finished earrings -> phone mockup with thumb scrolling the page -> rewind -> CTA end card."""
+# Expects anekant_website cloned at /home/claude/anekant_website and writes to ./out/ next to this script. Adapt paths/text per Reel.
 import pathlib, subprocess
 from PIL import Image, ImageDraw, ImageFilter
 from playwright.sync_api import sync_playwright
