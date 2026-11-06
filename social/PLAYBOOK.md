@@ -8,7 +8,7 @@ custom ERP, custom CRM, headless CMS and UI/UX design systems, with zero vendor 
 mid-size businesses). Every post ends with a soft DM call to action ("DM us “ERP”", "DM us “SCROLL”"…).
 
 ## Test month: 31 Oct – 29 Nov 2026
-3 posts a week on **Saturday, Tuesday and Thursday** (each "week" below runs Sat → Thu).
+**Exactly 3 posts a week — one each on Saturday, Tuesday and Thursday, never on other days and never two on the same day** (Yash, 6 Nov). Each "week" below runs Sat → Thu.
 **Since 6 Nov all posts PUBLISH AUTOMATICALLY** (`"draft": false`). Yash chose this after week 1's drafts were
 never approved and nothing went out. The Sunday task messages him the coming posts so he can ask for changes
 or cancel one before it's due.
@@ -20,11 +20,10 @@ Variables being tested — keep them balanced so the month-end review can compar
 | Week | Sat | Tue | Thu |
 |---|---|---|---|
 | 1 (31 Oct, 3 & 5 Nov) | Reel: Emerald Earring, "Smooth. Scroll-driven." — 18:30 (published; 32 views) | ⚠️ not published (drafts never approved) | ⚠️ not published |
-| catch-up (Fri 6 Nov) | Trial Reel v3 "This product page has no video in it" (phone mockup, sound) — 18:30 | | |
-| 2 (7, 10 & 12 Nov) ✅ scheduled | Carousel: How to write a software brief — 21:30 | Carousel: Flutter vs React Native — 18:30 | Trial Reel (text, motion + sound): Core Web Vitals, "your site has 2.5 seconds" — 21:30 |
-| 3 (14, 17 & 19 Nov) | ✅ Carousel: Custom ERP build vs buy, 5 questions — 18:30 (moved from wk 1) | ✅ Carousel: What is scrollytelling? — 21:30 (moved from wk 1) | Trial Reel (text): 5 signs your website is losing buyers — 18:30 |
-| 4 (21, 24 & 26 Nov) | Carousel: Headless CMS vs WordPress — 21:30 | Trial Reel (text): App maintenance after launch, what nobody budgets for — 18:30 | Carousel: WhatsApp Business API inside your CRM — 21:30 |
-| 5 (28 Nov, 1 & 3 Dec) | Carousel: Zero vendor lock-in, what you should own — 18:30 | Fresh topic | Fresh topic (Trial Reel) |
+| 2 (7, 10 & 12 Nov) ✅ scheduled | Trial Reel v3 "This product page has no video in it" (phone mockup, sound) — 18:30 | Carousel: Flutter vs React Native — 18:30 | Trial Reel (text, motion + sound): Core Web Vitals, "your site has 2.5 seconds" — 21:30 |
+| 3 (14, 17 & 19 Nov) ✅ scheduled | Carousel: Custom ERP build vs buy, 5 questions — 18:30 | Carousel: What is scrollytelling? — 21:30 | Carousel: How to write a software brief — 21:30 |
+| 4 (21, 24 & 26 Nov) | Carousel: Headless CMS vs WordPress — 21:30 | Trial Reel (text): 5 signs your website is losing buyers — 18:30 | Carousel: WhatsApp Business API inside your CRM — 21:30 |
+| 5 (28 Nov, 1 & 3 Dec) | Carousel: Zero vendor lock-in, what you should own — 18:30 | Trial Reel (text): App maintenance after launch, what nobody budgets for — 21:30 | Fresh topic |
 
 Source material: the Insights articles at https://anekant.tech/insights (also in the private repo
 YashmDhoka/anekant_website under web/insights/<slug>/index.html). Showcase: only the **Emerald Earring**
