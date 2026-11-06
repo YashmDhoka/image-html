@@ -8,9 +8,10 @@ custom ERP, custom CRM, headless CMS and UI/UX design systems, with zero vendor 
 mid-size businesses). Every post ends with a soft DM call to action ("DM us “ERP”", "DM us “SCROLL”"…).
 
 ## Test month: 31 Oct – 29 Nov 2026
-3 posts a week on **Saturday, Tuesday and Thursday** (each "week" below runs Sat → Thu). All posts are
-created in Metricool as **drafts** (`"draft": true`) for Yash to approve. (Exception: Yash approved the
-first Reel in chat, so it was scheduled to publish directly on Sat 31 Oct.)
+3 posts a week on **Saturday, Tuesday and Thursday** (each "week" below runs Sat → Thu).
+**Since 6 Nov all posts PUBLISH AUTOMATICALLY** (`"draft": false`). Yash chose this after week 1's drafts were
+never approved and nothing went out. The Sunday task messages him the coming posts so he can ask for changes
+or cancel one before it's due.
 Variables being tested — keep them balanced so the month-end review can compare:
 - **Format:** Reels vs carousels (aim ~1 Reel + 2 carousels a week).
 - **Time (IST):** 18:30 (UK/EU afternoon, US East morning) vs 21:30 (UK/EU evening, US East lunchtime).
@@ -18,11 +19,12 @@ Variables being tested — keep them balanced so the month-end review can compar
 
 | Week | Sat | Tue | Thu |
 |---|---|---|---|
-| 1 (31 Oct, 3 & 5 Nov) ✅ done | Reel: Emerald Earring, "Smooth. Scroll-driven." — 18:30 (published; ~30 views) | Carousel: Custom ERP build vs buy, 5 questions — 21:30 · **plus** Trial Reel v3 "This product page has no video in it" (phone mockup, sound) — 18:30 | Carousel: What is scrollytelling? — 18:30 |
-| 2 (7, 10 & 12 Nov) ✅ done | Carousel: How to write a software brief — 21:30 | Carousel: Flutter vs React Native — 18:30 | Trial Reel (text, v2 with motion + sound): Core Web Vitals, "your site has 2.5 seconds" — 21:30 |
-| 3 (14, 17 & 19 Nov) | Reel: Emerald Earring "how a scroll-driven page works" (demo footage + text scenes) — 18:30 | Carousel: Headless CMS vs WordPress — 21:30 | Carousel: WhatsApp Business API inside your CRM — 18:30 |
-| 4 (21, 24 & 26 Nov) | Carousel: Zero vendor lock-in, what you should own — 21:30 | Reel (text): 5 signs your website is losing buyers — 18:30 | Carousel: App maintenance after launch — 21:30 |
-| 5 (28 Nov, 1 & 3 Dec) | Fresh topic (see below) | Fresh topic | Fresh topic |
+| 1 (31 Oct, 3 & 5 Nov) | Reel: Emerald Earring, "Smooth. Scroll-driven." — 18:30 (published; 32 views) | ⚠️ not published (drafts never approved) | ⚠️ not published |
+| catch-up (Fri 6 Nov) | Trial Reel v3 "This product page has no video in it" (phone mockup, sound) — 18:30 | | |
+| 2 (7, 10 & 12 Nov) ✅ scheduled | Carousel: How to write a software brief — 21:30 | Carousel: Flutter vs React Native — 18:30 | Trial Reel (text, motion + sound): Core Web Vitals, "your site has 2.5 seconds" — 21:30 |
+| 3 (14, 17 & 19 Nov) | ✅ Carousel: Custom ERP build vs buy, 5 questions — 18:30 (moved from wk 1) | ✅ Carousel: What is scrollytelling? — 21:30 (moved from wk 1) | Trial Reel (text): 5 signs your website is losing buyers — 18:30 |
+| 4 (21, 24 & 26 Nov) | Carousel: Headless CMS vs WordPress — 21:30 | Trial Reel (text): App maintenance after launch, what nobody budgets for — 18:30 | Carousel: WhatsApp Business API inside your CRM — 21:30 |
+| 5 (28 Nov, 1 & 3 Dec) | Carousel: Zero vendor lock-in, what you should own — 18:30 | Fresh topic | Fresh topic (Trial Reel) |
 
 Source material: the Insights articles at https://anekant.tech/insights (also in the private repo
 YashmDhoka/anekant_website under web/insights/<slug>/index.html). Showcase: only the **Emerald Earring**
@@ -65,7 +67,7 @@ headlines). Neo-brutalist: 3px rules, hard offset shadows, big orange numbers, d
 ## Hosting + scheduling
 1. Put media in this repo under `social/YYYY-MM-wN/`, commit and push to `main`.
 2. Public URL: `https://raw.githubusercontent.com/YashmDhoka/image-html/main/social/<folder>/<file>` (curl it to confirm 200).
-3. Metricool brand id **7751624**, timezone **Asia/Kolkata**. `createScheduledPost` with `draft: true`,
+3. Metricool brand id **7751624**, timezone **Asia/Kolkata**. `createScheduledPost` with `draft: false` (auto-publish),
    providers `[{"network":"instagram"}]`, `instagramData.type` POST (carousel) or TRIAL_REEL (+ `videoThumbnailUrl`).
    Metricool copies the media to its own storage.
 
