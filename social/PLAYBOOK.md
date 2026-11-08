@@ -20,7 +20,7 @@ Variables being tested — keep them balanced so the month-end review can compar
 | Week | Sat | Tue | Thu |
 |---|---|---|---|
 | 1 (31 Oct, 3 & 5 Nov) | Reel: Emerald Earring, "Smooth. Scroll-driven." — 18:30 (published; 32 views) | ⚠️ not published (drafts never approved) | ⚠️ not published |
-| 2 (7, 10 & 12 Nov) ✅ scheduled | Trial Reel v3 "This product page has no video in it" (phone mockup, sound) — 18:30 | Carousel: Flutter vs React Native — 18:30 | Trial Reel (text, motion + sound): Core Web Vitals, "your site has 2.5 seconds" — 21:30 |
+| 2 (7, 10 & 12 Nov) ✅ scheduled | Trial Reel v3 "This product page has no video in it" (phone mockup, sound) — 18:30 (⚠️ FAILED: Trial Reel follower requirement) | Carousel: Flutter vs React Native — 18:30 | Trial Reel (text, motion + sound): Core Web Vitals, "your site has 2.5 seconds" — 21:30 |
 | 3 (14, 17 & 19 Nov) ✅ scheduled | Carousel: Custom ERP build vs buy, 5 questions — 18:30 | Carousel: What is scrollytelling? — 21:30 | Carousel: How to write a software brief — 21:30 |
 | 4 (21, 24 & 26 Nov) | Carousel: Headless CMS vs WordPress — 21:30 | Trial Reel (text): 5 signs your website is losing buyers — 18:30 | Carousel: WhatsApp Business API inside your CRM — 21:30 |
 | 5 (28 Nov, 1 & 3 Dec) | Carousel: Zero vendor lock-in, what you should own — 18:30 | Trial Reel (text): App maintenance after launch, what nobody budgets for — 21:30 | Fresh topic |
@@ -34,6 +34,9 @@ Posts that use these frames are set `isAiGenerated: true`.
 
 ## Reach rules (added 1 Nov after the first Reel got ~30 views)
 The account is new (≈10 followers), so Instagram has little signal on who to show posts to.
+- ⚠️ **8 Nov:** the 7 Nov Trial Reel failed in Metricool: "The instagram account does not meet the trial reel follower
+  requirement to create trial reels." The 12 Nov Trial Reel will fail the same way. Reported to Yash; awaiting his call on
+  switching Reels to `instagramData.type: "REEL"` until the account qualifies.
 - **Every Reel is a Trial Reel** (`instagramData.type: "TRIAL_REEL"`): Instagram shows it to non-followers first.
   Yash can share a well-performing one to his followers from the Instagram app.
 - **Hook in the first second.** Scene 1 / frame 1 must stop the scroll: a bold claim, question or number in big
