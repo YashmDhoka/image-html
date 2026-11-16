@@ -20,10 +20,11 @@ Variables being tested — keep them balanced so the month-end review can compar
 | Week | Sat | Tue | Thu |
 |---|---|---|---|
 | 1 (31 Oct, 3 & 5 Nov) | Reel: Emerald Earring, "Smooth. Scroll-driven." — 18:30 (published; 32 views) | ⚠️ not published (drafts never approved) | ⚠️ not published |
-| 2 (7, 10 & 12 Nov) ✅ scheduled | Trial Reel v3 "This product page has no video in it" (phone mockup, sound) — 18:30 (⚠️ FAILED: Trial Reel follower requirement) | Carousel: Flutter vs React Native — 18:30 | Trial Reel (text, motion + sound): Core Web Vitals, "your site has 2.5 seconds" — 21:30 |
-| 3 (14, 17 & 19 Nov) ✅ scheduled | Carousel: Custom ERP build vs buy, 5 questions — 18:30 | Carousel: What is scrollytelling? — 21:30 | Carousel: How to write a software brief — 21:30 |
-| 4 (21, 24 & 26 Nov) ✅ scheduled 15 Nov | Carousel: Headless CMS vs WordPress (DM HEADLESS) — 21:30 | Trial Reel (text, seed 24): 5 signs your website is losing buyers (DM WEBSITE) — 18:30 (⚠️ will fail like 7 & 12 Nov unless switched to REEL) | Carousel: WhatsApp Business API inside your CRM (DM WHATSAPP) — 21:30 |
-| 5 (28 Nov, 1 & 3 Dec) | Carousel: Zero vendor lock-in, what you should own — 18:30 | Trial Reel (text): App maintenance after launch, what nobody budgets for — 21:30 | Fresh topic |
+| 2 (7, 10 & 12 Nov) | ⚠️ Trial Reel FAILED (moved to Thu 19 Nov as a normal Reel) | Carousel: Flutter vs React Native — 18:30 (published) | ⚠️ Trial Reel FAILED (moved to Thu 3 Dec as a normal Reel) |
+| 3 (14, 17 & 19 Nov) ✅ scheduled | Carousel: Custom ERP build vs buy, 5 questions — 18:30 (published) | Carousel: What is scrollytelling? — 21:30 | Reel: Emerald Earring "This product page has no video in it" (phone mockup, sound) — 18:30 |
+| 4 (21, 24 & 26 Nov) ✅ scheduled | Carousel: Headless CMS vs WordPress (DM HEADLESS) — 21:30 | Reel (text): 5 signs your website is losing buyers (DM WEBSITE) — 18:30 | Carousel: WhatsApp Business API inside your CRM (DM WHATSAPP) — 21:30 |
+| 5 (28 Nov, 1 & 3 Dec) | ✅ Carousel: How to write a software brief — 21:30 (moved) | Reel (text): App maintenance after launch, what nobody budgets for — 18:30 | ✅ Reel (text): Core Web Vitals, "your site has 2.5 seconds" — 21:30 (moved) |
+| 6 (5, 8 & 10 Dec) | Carousel: Zero vendor lock-in, what you should own — 18:30 | Fresh topic | Fresh topic |
 
 Source material: the Insights articles at https://anekant.tech/insights (also in the private repo
 YashmDhoka/anekant_website under web/insights/<slug>/index.html). Showcase: only the **Emerald Earring**
@@ -34,11 +35,10 @@ Posts that use these frames are set `isAiGenerated: true`.
 
 ## Reach rules (added 1 Nov after the first Reel got ~30 views)
 The account is new (≈10 followers), so Instagram has little signal on who to show posts to.
-- ⚠️ **8 Nov:** the 7 Nov Trial Reel failed in Metricool: "The instagram account does not meet the trial reel follower
-  requirement to create trial reels." The 12 Nov Trial Reel did fail the same way (Metricool analytics show 0 Reels published 7–14 Nov). Reported to Yash; awaiting his call on
-  switching Reels to `instagramData.type: "REEL"` until the account qualifies.
-- **Every Reel is a Trial Reel** (`instagramData.type: "TRIAL_REEL"`): Instagram shows it to non-followers first.
-  Yash can share a well-performing one to his followers from the Instagram app.
+- **Reels are normal Reels (`instagramData.type: "REEL"`), NEVER `TRIAL_REEL`.** Trial Reels need a minimum
+  follower count; @anekant.tech doesn't meet it, so both Trial Reels (7 & 12 Nov) failed with "The instagram account
+  does not meet the trial reel follower requirement to create trial reels." Switched on 16 Nov. Only revisit Trial
+  Reels if Yash asks after the account has grown.
 - **Hook in the first second.** Scene 1 / frame 1 must stop the scroll: a bold claim, question or number in big
   text, over the most striking visual (finished product, never a slow build-up). No logo intros.
 - **Every Reel has sound.** Library music via Metricool is blocked until @anekant.tech is linked to a Facebook
@@ -73,7 +73,7 @@ headlines). Neo-brutalist: 3px rules, hard offset shadows, big orange numbers, d
 1. Put media in this repo under `social/YYYY-MM-wN/`, commit and push to `main`.
 2. Public URL: `https://raw.githubusercontent.com/YashmDhoka/image-html/main/social/<folder>/<file>` (curl it to confirm 200).
 3. Metricool brand id **7751624**, timezone **Asia/Kolkata**. `createScheduledPost` with `draft: false` (auto-publish),
-   providers `[{"network":"instagram"}]`, `instagramData.type` POST (carousel) or TRIAL_REEL (+ `videoThumbnailUrl`).
+   providers `[{"network":"instagram"}]`, `instagramData.type` POST (carousel) or REEL (+ `videoThumbnailUrl`). Never TRIAL_REEL.
    Metricool copies the media to its own storage.
 
 ## Captions
