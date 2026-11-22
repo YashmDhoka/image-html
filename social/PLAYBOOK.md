@@ -21,9 +21,9 @@ Variables being tested — keep them balanced so the month-end review can compar
 |---|---|---|---|
 | 1 (31 Oct, 3 & 5 Nov) | Reel: Emerald Earring, "Smooth. Scroll-driven." — 18:30 (published; 32 views) | ⚠️ not published (drafts never approved) | ⚠️ not published |
 | 2 (7, 10 & 12 Nov) | ⚠️ Trial Reel FAILED (moved to Thu 19 Nov as a normal Reel) | Carousel: Flutter vs React Native — 18:30 (published) | ⚠️ Trial Reel FAILED (moved to Thu 3 Dec as a normal Reel) |
-| 3 (14, 17 & 19 Nov) ✅ scheduled | Carousel: Custom ERP build vs buy, 5 questions — 18:30 (published) | Carousel: What is scrollytelling? — 21:30 | Reel: Emerald Earring "This product page has no video in it" (phone mockup, sound) — 18:30 |
-| 4 (21, 24 & 26 Nov) ✅ scheduled | Carousel: Headless CMS vs WordPress (DM HEADLESS) — 21:30 | Reel (text): 5 signs your website is losing buyers (DM WEBSITE) — 18:30 | Carousel: WhatsApp Business API inside your CRM (DM WHATSAPP) — 21:30 |
-| 5 (28 Nov, 1 & 3 Dec) | ✅ Carousel: How to write a software brief — 21:30 (moved) | Reel (text): App maintenance after launch, what nobody budgets for — 18:30 | ✅ Reel (text): Core Web Vitals, "your site has 2.5 seconds" — 21:30 (moved) |
+| 3 (14, 17 & 19 Nov) ✅ all published | Carousel: Custom ERP build vs buy, 5 questions — 18:30 (published; 20 views / 4 reach) | Carousel: What is scrollytelling? — 21:30 (published; 12 views / 3 reach) | Reel: Emerald Earring "This product page has no video in it" (phone mockup, sound) — 18:30 (published; 30 views / 23 reach) |
+| 4 (21, 24 & 26 Nov) ✅ scheduled | Carousel: Headless CMS vs WordPress (DM HEADLESS) — 21:30 (published; 18 views / 2 reach day one) | Reel (text): 5 signs your website is losing buyers (DM WEBSITE) — 18:30 | Carousel: WhatsApp Business API inside your CRM (DM WHATSAPP) — 21:30 |
+| 5 (28 Nov, 1 & 3 Dec) ✅ scheduled | ✅ Carousel: How to write a software brief — 21:30 (moved) | ✅ Reel (text): App maintenance after launch, what nobody budgets for (DM APP, seed 17) — 18:30 | ✅ Reel (text): Core Web Vitals, "your site has 2.5 seconds" — 21:30 (moved) |
 | 6 (5, 8 & 10 Dec) | Carousel: Zero vendor lock-in, what you should own — 18:30 | Fresh topic | Fresh topic |
 
 Source material: the Insights articles at https://anekant.tech/insights (also in the private repo
@@ -54,6 +54,7 @@ The account is new (≈10 followers), so Instagram has little signal on who to s
 
 ## Weekly stats (Metricool, evolution connector)
 - 7–14 Nov: account views 17, reach 3; feed posts 2 (10 Nov Flutter vs RN carousel: 16 views / 2 reach; 14 Nov ERP carousel: 1 view on day one); Reels published 0 (both Trial Reels failed); followers 10 → 8.
+- 14–21 Nov: account views 90, reach 31 (sum of daily); content 4 published (3 carousels, 1 Reel), 0 failures; Emerald Reel 30 views / 23 reach (best so far, first normal Reel with sound + hook) vs carousels 12–20 views / 2–4 reach; followers 8 → 10.
 
 ## Visual style (matches the website)
 Paper #EFECE4, ink #0D0D0D, muted #6B675E, signal orange #FF4415, font Manrope (ExtraBold 800 for
