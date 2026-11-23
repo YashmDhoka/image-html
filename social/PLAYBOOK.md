@@ -8,7 +8,7 @@ custom ERP, custom CRM, headless CMS and UI/UX design systems, with zero vendor 
 mid-size businesses). Every post ends with a soft DM call to action ("DM us “ERP”", "DM us “SCROLL”"…).
 
 ## Test month: 31 Oct – 29 Nov 2026
-**Exactly 3 posts a week — one each on Saturday, Tuesday and Thursday, never on other days and never two on the same day** (Yash, 6 Nov). Each "week" below runs Sat → Thu.
+**(Superseded from 1 Dec by the Posting rules below: max 8 a month, Tue/Thu.)** **Exactly 3 posts a week — one each on Saturday, Tuesday and Thursday, never on other days and never two on the same day** (Yash, 6 Nov). Each "week" below runs Sat → Thu.
 **Since 6 Nov all posts PUBLISH AUTOMATICALLY** (`"draft": false`). Yash chose this after week 1's drafts were
 never approved and nothing went out. The Sunday task messages him the coming posts so he can ask for changes
 or cancel one before it's due.
