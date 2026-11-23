@@ -1,0 +1,42 @@
+{
+ "page": "/tmp/claude-0/-home-claude/be0f3494-7f3c-51c3-b762-e885605cf8ad/scratchpad/seo_full.png",
+ "captions": [
+  {
+   "kicker": "Technical SEO audit",
+   "headline": "Invisible on Google <span style=\"color:#FF4415\">and in ChatGPT answers?</span>",
+   "start": 0,
+   "end": 2.8,
+   "scroll_to": 0
+  },
+  {
+   "kicker": "01 · Audit",
+   "headline": "We crawl your site the way search engines do.",
+   "body": "Indexing, rendering, redirects, canonicals.",
+   "start": 2.8,
+   "end": 5.4,
+   "scroll_to": 1860
+  },
+  {
+   "kicker": "01 · Audit",
+   "headline": "Speed, markup, AI crawlers. Ranked by impact.",
+   "body": "Core Web Vitals, JSON-LD, robots.txt, llms.txt.",
+   "start": 5.4,
+   "end": 8.0,
+   "scroll_to": 2520
+  },
+  {
+   "kicker": "02 · Fix",
+   "headline": "Then we fix it in your code.",
+   "body": "Not a report to forward to a developer.",
+   "start": 8.0,
+   "end": 10.6,
+   "scroll_to": 3560
+  }
+ ],
+ "end": {
+  "kicker": "SEO + AEO audit",
+  "headline": "DM us “AUDIT”.",
+  "body": "For sites that are hard to find, or invisible to AI answers.",
+  "seconds": 3.6
+ }
+}
