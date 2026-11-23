@@ -23,8 +23,10 @@ Variables being tested — keep them balanced so the month-end review can compar
 | 2 (7, 10 & 12 Nov) | ⚠️ Trial Reel FAILED (moved to Thu 19 Nov as a normal Reel) | Carousel: Flutter vs React Native — 18:30 (published) | ⚠️ Trial Reel FAILED (moved to Thu 3 Dec as a normal Reel) |
 | 3 (14, 17 & 19 Nov) ✅ all published | Carousel: Custom ERP build vs buy, 5 questions — 18:30 (published; 20 views / 4 reach) | Carousel: What is scrollytelling? — 21:30 (published; 12 views / 3 reach) | Reel: Emerald Earring "This product page has no video in it" (phone mockup, sound) — 18:30 (published; 30 views / 23 reach) |
 | 4 (21, 24 & 26 Nov) ✅ scheduled | Carousel: Headless CMS vs WordPress (DM HEADLESS) — 21:30 (published; 18 views / 2 reach day one) | Reel (text): 5 signs your website is losing buyers (DM WEBSITE) — 18:30 | Carousel: WhatsApp Business API inside your CRM (DM WHATSAPP) — 21:30 |
-| 5 (28 Nov, 1 & 3 Dec) ✅ scheduled | ✅ Carousel: How to write a software brief — 21:30 (moved) | ✅ Reel (text): App maintenance after launch, what nobody budgets for (DM APP, seed 17) — 18:30 | ✅ Reel (text): Core Web Vitals, "your site has 2.5 seconds" — 21:30 (moved) |
-| 6 (5, 8 & 10 Dec) | Carousel: Zero vendor lock-in, what you should own — 18:30 | Fresh topic | Fresh topic |
+| 5 (28 Nov, 1 & 3 Dec) ✅ scheduled | ✅ Carousel: How to write a software brief — 21:30 (moved) | ✅ Reel (text): App maintenance after launch, what nobody budgets for (DM APP, seed 17) — 18:30 | ✅ Reel (site scroll): Technical SEO audit, SEO & AEO service page (DM AUDIT, seed 23) — 21:30 (added 23 Nov at Yash's request) |
+| 6 (8 & 10 Dec, Tue/Thu only) | — | Service post (fill Sun 29 Nov) — 18:30 | Service post — 21:30 |
+| 7 (15 & 17 Dec) | — | ✅ Reel (text): Core Web Vitals, "your site has 2.5 seconds" (DM SPEED) — 18:30 (moved from 3 Dec) | Service post — 21:30 |
+| 8 (22 & 24 Dec) | — | Service post | Service post (8th of December; no posts 29/31 Dec) |
 
 Source material: the Insights articles at https://anekant.tech/insights (also in the private repo
 YashmDhoka/anekant_website under web/insights/<slug>/index.html). Showcase: only the **Emerald Earring**
@@ -32,6 +34,20 @@ demo is live (https://anekant.tech/samples/emerald-earring); Berry Soda, Perfume
 to /samples — do not promote them. Emerald frames: anekant_website/assets/emerald_earring/ezgif-frame-001…210.png
 (1280x720). They carry a small sparkle mark bottom-right — always crop it out (centre crop x=280..1000).
 Posts that use these frames are set `isAiGenerated: true`.
+
+## Posting rules (Yash, 23 Nov 2026, replaces the 3-a-week rule from December)
+- **Maximum 8 posts per calendar month.** From 1 Dec: **two a week, Tuesday and Thursday**, never other days, never two on one day.
+  A month with more than 8 Tue/Thu dates leaves its last slots empty (Dec 2026: 1, 3, 8, 10, 15, 17, 22, 24 — no posts 29 or 31 Dec).
+  November stays as scheduled (8 posts incl. Sat 28 Nov).
+- **Content focus: Anekant's services.** Each post sells one service from https://anekant.tech/services (website development,
+  Flutter apps, custom software, ERP, CRM, headless CMS, UI/UX, SEO & AEO, cybersecurity audit, AI, cloud & DevOps, data & analytics),
+  using only the facts on that service page. Insights articles are supporting material, not the topic.
+- **Reels from websites we have already made.** Website-scroll Reels show real anekant.tech pages scrolling inside a phone:
+  serve `anekant_website/web` locally (`python3 -m http.server`), take a full-page Playwright screenshot at 390x844,
+  deviceScaleFactor 2, then `python3 _tools/make_site_reel.py spec.json out.mp4 SEED` (see `2026-12-w1/seo-audit.json`).
+  The live site can't be fetched from the cloud sandbox, so use the local copy. Showcase sources: anekant.tech service pages
+  and the Emerald Earring demo (phone-reel tool). Do not show or name client sites unless Yash supplies them.
+- Mix: aim for at least one Reel a week; the second slot can be a Reel or a carousel.
 
 ## Reach rules (added 1 Nov after the first Reel got ~30 views)
 The account is new (≈10 followers), so Instagram has little signal on who to show posts to.
